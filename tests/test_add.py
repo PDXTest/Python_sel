@@ -18,6 +18,7 @@ class Test_Add(BaseClass):
         log1.info("first name is entered")
         loginpage.getPassword().send_keys("admin123")
         log1.info("first name is entered")
+        log1.info("first name is entered")
         loginpage.submitform().click()
         time.sleep(1)
 
